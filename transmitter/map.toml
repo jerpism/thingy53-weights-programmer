@@ -1,0 +1,25 @@
+[normalization]
+name = "normalization"
+kshape = [3, 0]
+bshape = [0]
+
+[conv2d]
+name = "conv2d"
+kshape = [3, 3, 1, 32, 0]
+bshape = [32, 0]
+
+[conv2d_1]
+name = "conv2d_1"
+kshape = [3, 3, 32, 64, 0]
+bshape = [64, 0]
+
+[dense]
+name = "dense"
+kshape = [12544, 64, 0]
+bshape = [64, 0]
+
+[dense_1]
+name = "dense_1"
+kshape = [64, 8, 0]
+bshape = [8, 0]
+
